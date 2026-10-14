@@ -4,6 +4,17 @@ let categoriaSeleccionada = "";
 let catalogoCargado = false;
 const buscador = document.getElementById("buscar-productos");
 const menuCategorias = document.getElementById("menu-categorias");
+const panelCarrito = document.getElementById("carrito");
+function abrirCarrito() {
+  if (!panelCarrito.open) panelCarrito.showModal();
+}
+document.getElementById("abrir-carrito").addEventListener("click", abrirCarrito);
+document.getElementById("cerrar-carrito").addEventListener("click", () => panelCarrito.close());
+panelCarrito.addEventListener("click", (evento) => {
+  if (evento.target !== panelCarrito) return;
+  const rect = panelCarrito.getBoundingClientRect();
+  if (evento.clientX < rect.left || evento.clientX > rect.right || evento.clientY < rect.top || evento.clientY > rect.bottom) panelCarrito.close();
+});
 
 function normalizarTexto(texto) {
   return String(texto)
@@ -208,6 +219,7 @@ function mostrarProductos() {
             ? producto.nombre + " agregado al carrito."
             : "No hay más stock disponible.",
         );
+        if (agregado) abrirCarrito();
       },
       "Agregar " + producto.nombre + " al carrito",
     );

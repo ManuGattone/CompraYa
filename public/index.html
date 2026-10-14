@@ -24,8 +24,8 @@
       <nav aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#productos">Productos</a>
-        <a class="enlace-carrito" href="#carrito">Carrito <span id="cantidad-carrito" class="contador">0</span><span
-            class="solo-lectores"> unidades</span></a>
+        <button class="enlace-carrito" id="abrir-carrito" type="button" aria-haspopup="dialog" aria-controls="carrito">Carrito <span id="cantidad-carrito" class="contador">0</span><span
+            class="solo-lectores"> unidades</span></button>
         <a id="enlace-historial" href="#historial" hidden>Mis compras</a>
         <a id="enlace-admin" href="#administracion" hidden>Administración</a>
         <span id="usuario-actual" hidden></span>
@@ -84,13 +84,13 @@
       <div id="lista-productos" class="productos-grid"></div>
     </section>
 
-    <section id="carrito" class="carrito" aria-labelledby="titulo-carrito">
+    <dialog id="carrito" class="panel-carrito" aria-labelledby="titulo-carrito">
       <div class="encabezado-seccion">
         <div>
           <p class="etiqueta">TU COMPRA</p>
           <h2 id="titulo-carrito">Carrito de compras</h2>
         </div>
-        <span class="detalle-seccion">Revisá los productos y las cantidades.</span>
+        <button id="cerrar-carrito" class="cerrar-panel" type="button" aria-label="Cerrar carrito">×</button>
       </div>
       <p id="mensaje-carrito" class="mensaje" role="status" aria-live="polite"></p>
       <div class="carrito-layout">
@@ -106,7 +106,7 @@
             adicionales. El carrito se conserva durante esta visita.</small>
         </aside>
       </div>
-    </section>
+    </dialog>
     <section id="historial" class="carrito" hidden aria-labelledby="titulo-historial">
       <div class="encabezado-seccion">
         <h2 id="titulo-historial">Mis compras</h2>

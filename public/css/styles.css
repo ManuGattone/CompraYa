@@ -178,6 +178,8 @@ nav a:hover {
   color: var(--turquesa);
 }
 .enlace-carrito {
+  background: transparent;
+  color: inherit;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -185,6 +187,43 @@ nav a:hover {
   border-radius: 10px;
   padding: 10px 16px;
 }
+.panel-carrito {
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: min(480px, 100%);
+  max-width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 28px;
+  border: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  overflow-y: auto;
+  box-shadow: -12px 0 48px #151b3630;
+}
+.panel-carrito[open] { animation: abrir-panel .22s ease-out; }
+.panel-carrito::backdrop { background: #151b3680; }
+body:has(.panel-carrito[open]) { overflow: hidden; }
+.panel-carrito .encabezado-seccion { align-items: center; }
+.cerrar-panel {
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: white;
+  color: var(--tinta);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  font-size: 26px;
+}
+.panel-carrito .carrito-layout { grid-template-columns: 1fr; gap: 24px; }
+.panel-carrito .carrito-item { grid-template-columns: 1fr auto; gap: 12px; }
+.panel-carrito .carrito-item > div:first-child { grid-column: 1 / -1; }
+.panel-carrito .subtotal { text-align: right; }
+.panel-carrito .eliminar { justify-self: start; }
+@keyframes abrir-panel { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) { .panel-carrito[open] { animation: none; } }
+@media (max-width: 560px) { .panel-carrito { padding: 24px 20px; } }
 .contador {
   display: inline-flex;
   justify-content: center;

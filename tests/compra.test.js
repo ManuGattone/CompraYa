@@ -383,6 +383,9 @@ test(
       await page.locator("#buscar-productos").fill("Logitech G203");
       assert.equal(await page.locator(".producto-card").count(), 1);
       await page.locator(".agregar-producto").click();
+      await page.waitForSelector("#carrito[open]");
+      await page.keyboard.press("Escape");
+      await page.locator("#abrir-carrito").click();
       await page.locator("#finalizar-compra").click();
       await page.locator("#alternar-login").click();
       await page.locator("#login-nombre").fill("Usuario navegador");
@@ -402,6 +405,7 @@ test(
           "Mouse Logitech G203",
         ),
       );
+      await page.locator("#cerrar-carrito").click();
       await page.locator("#cerrar-sesion").click();
       await page.waitForSelector("#abrir-login", { state: "visible" });
       await page.locator("#abrir-login").click();

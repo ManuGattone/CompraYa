@@ -1,0 +1,32 @@
+{
+  "name": "compraya",
+  "version": "1.0.0",
+  "description": "Tienda de tecnología: proyecto IFTS de POO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "migrate": "node database/migrar.js",
+    "seed": "node database/ampliar-catalogo.js",
+    "imagenes": "node database/descargar-fotos.js",
+    "admin": "node database/crear-admin.js",
+    "test": "node --test tests/compra.test.js",
+    "test:ui": "node tests/navegador.js",
+    "format": "prettier --write \"**/*.{js,json,html,css,md}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.1"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "prettier": "^3.9.9"
+  }
+}

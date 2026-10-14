@@ -1,0 +1,181 @@
+﻿<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#151b36" />
+  <title> CompraYa | Productos PC </title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body id="inicio">
+  <header class="header">
+    <div class="contenedor header-contenido">
+      <a class="marca" href="#inicio" aria-label="CompraYa, inicio">
+        <svg class="logo" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <rect width="48" height="48" rx="14" fill="currentColor" />
+          <path d="M13 18h22l-2 19H15l-2-19Z" stroke="#151b36" stroke-width="2.5" stroke-linejoin="round" />
+          <path d="M19 19v-4a5 5 0 0 1 10 0v4" stroke="#151b36" stroke-width="2.5" stroke-linecap="round" />
+          <path d="m25 22-5 7h5l-2 6 7-9h-5l2-4Z" fill="#151b36" />
+        </svg>
+        <span>Compra<span class="marca-acento">Ya</span><small>Productos PC </small></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a class="enlace-carrito" href="#carrito">Carrito <span id="cantidad-carrito" class="contador">0</span><span
+            class="solo-lectores"> unidades</span></a>
+        <a id="enlace-historial" href="#historial" hidden>Mis compras</a>
+        <a id="enlace-admin" href="#administracion" hidden>Administración</a>
+        <span id="usuario-actual" hidden></span>
+        <button id="abrir-login" type="button" class="boton">Ingresar</button>
+        <button id="cerrar-sesion" type="button" class="boton" hidden>
+          Cerrar sesión
+        </button>
+      </nav>
+    </div>
+    <div class="barra-catalogo">
+      <div class="contenedor herramientas-catalogo">
+        <details id="menu-categorias" class="menu-categorias">
+          <summary aria-controls="lista-categorias">
+            ☰ <span id="categoria-seleccionada">Todas las categorías</span>
+            <span aria-hidden="true">⌄</span>
+          </summary>
+          <div id="lista-categorias" class="lista-categorias" aria-label="Categorías de productos">
+            <p class="categorias-cargando">Cargando categorías…</p>
+          </div>
+        </details>
+        <form id="formulario-busqueda" class="buscador" role="search">
+          <label class="solo-lectores" for="buscar-productos">Buscar productos</label>
+          <input id="buscar-productos" type="search" placeholder="Buscá por producto, marca o modelo…"
+            autocomplete="off" aria-controls="lista-productos" disabled />
+          <button type="submit" class="boton" disabled>Buscar</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-contenido">
+        <p class="etiqueta">COMPONENTES Y PERIFÉRICOS PARA PC</p>
+        <h1 id="titulo-principal">Equipá tu PC.<br /><span>Elegí tus componentes.</span></h1>
+        <p class="hero-descripcion">Placas de video, monitores, teclados, auriculares y más. Buscá por marca o modelo y comprá lo que necesitás para tu PC.</p>
+        <a class="boton boton-claro" href="#productos">Ver productos <span aria-hidden="true">↗</span></a>
+      </div>
+      <img class="hero-foto" src="images/banner-setup.png" alt="Persona con auriculares frente a un setup de PC con monitor, teclado y gabinete" fetchpriority="high" />
+    </section>
+
+    <section id="productos" class="productos" aria-labelledby="titulo-productos">
+      <div class="encabezado-seccion">
+        <div>
+          <p class="etiqueta">CATÁLOGO DE PRODUCTOS</p>
+          <h2 id="titulo-productos">Componentes y periféricos</h2>
+        </div>
+        <span class="detalle-seccion">Filtrá por categoría o buscá por modelo.</span>
+      </div>
+      <p id="estado-productos" class="estado" role="status">
+        Cargando productos…
+      </p>
+      <button id="limpiar-filtros" type="button" class="limpiar-filtros" hidden>
+        Limpiar filtros
+      </button>
+      <div id="lista-productos" class="productos-grid"></div>
+    </section>
+
+    <section id="carrito" class="carrito" aria-labelledby="titulo-carrito">
+      <div class="encabezado-seccion">
+        <div>
+          <p class="etiqueta">TU COMPRA</p>
+          <h2 id="titulo-carrito">Carrito de compras</h2>
+        </div>
+        <span class="detalle-seccion">Revisá los productos y las cantidades.</span>
+      </div>
+      <p id="mensaje-carrito" class="mensaje" role="status" aria-live="polite"></p>
+      <div class="carrito-layout">
+        <div id="lista-carrito"></div>
+        <aside class="resumen" aria-label="Resumen del carrito">
+          <h3>Resumen de compra</h3>
+          <p>Unidades <strong id="unidades-resumen">0</strong></p>
+          <p class="total">Total <strong id="total-carrito">$0</strong></p>
+          <button id="finalizar-compra" class="boton" type="button" disabled>
+            Finalizar compra
+          </button>
+          <small>Precios en ARS. El total es la suma de los subtotales, sin cargos
+            adicionales. El carrito se conserva durante esta visita.</small>
+        </aside>
+      </div>
+    </section>
+    <section id="historial" class="carrito" hidden aria-labelledby="titulo-historial">
+      <div class="encabezado-seccion">
+        <h2 id="titulo-historial">Mis compras</h2>
+        <button id="recargar-pedidos" class="boton" type="button">
+          Actualizar
+        </button>
+      </div>
+      <p id="mensaje-pedidos" role="status"></p>
+      <div id="lista-pedidos"></div>
+    </section>
+    <section id="administracion" class="carrito" hidden aria-labelledby="titulo-admin">
+      <h2 id="titulo-admin">Panel de administración</h2>
+      <p id="mensaje-admin" class="mensaje" role="status"></p>
+      <form id="formulario-producto" class="formulario-producto">
+        <h3 id="titulo-form-producto">Crear producto</h3>
+        <input id="producto-id" type="hidden" />
+        <label>Nombre<input id="producto-nombre" required maxlength="200" /></label>
+        <label>Categoría<input id="producto-categoria" list="categorias-admin" required maxlength="100" /></label>
+        <datalist id="categorias-admin"></datalist>
+        <label>Precio (ARS)<input id="producto-precio" type="number" min="0.01" max="999999999" step="0.01"
+            required /></label>
+        <label>Stock<input id="producto-stock" type="number" min="0" max="2147483647" step="1" required /></label>
+        <label class="campo-ancho">Imagen (ruta local o URL HTTPS)<input id="producto-imagen" required maxlength="2000"
+            placeholder="/images/productos/modelo.png" /></label>
+        <button class="boton" type="submit">Guardar producto</button><button id="cancelar-edicion" class="boton"
+          type="button">
+          Nuevo / cancelar
+        </button>
+      </form>
+      <h3>Productos</h3>
+      <div id="productos-admin" class="tabla-contenedor"></div>
+      <h3>Pedidos realizados</h3>
+      <button id="recargar-admin" class="boton" type="button">
+        Actualizar pedidos
+      </button>
+      <div id="pedidos-admin"></div>
+    </section>
+  </main>
+  <footer class="contenedor footer">
+    <strong>CompraYa<span> · </span></strong> Componentes y periféricos para PC.<small>Proyecto IFTS · Programación Orientada a Objetos</small>
+  </footer>
+  <dialog id="dialogo-login" aria-labelledby="titulo-login">
+    <button id="cerrar-login" type="button" class="cerrar-login" aria-label="Cerrar">
+      ×
+    </button>
+    <h2 id="titulo-login">Iniciar sesión</h2>
+    <p class="nota-login">
+      Creá tu cuenta para finalizar compras y consultar tus pedidos.
+    </p>
+    <form id="formulario-login" class="formulario-login">
+      <div id="campo-nombre" hidden>
+        <label for="login-nombre">Nombre</label>
+        <input id="login-nombre" autocomplete="name" maxlength="60" />
+      </div>
+      <label for="login-email">Correo electrónico</label>
+      <input id="login-email" type="email" autocomplete="username" required maxlength="254" />
+      <label for="login-clave">Contraseña</label>
+      <input id="login-clave" type="password" autocomplete="current-password" required minlength="8" maxlength="128" />
+      <p id="mensaje-login" role="status" aria-live="polite"></p>
+      <button id="enviar-login" type="submit" class="boton">Ingresar</button>
+    </form>
+    <button id="alternar-login" type="button" class="alternar-login">
+      ¿No tenés cuenta? Registrate
+    </button>
+  </dialog>
+  <script src="js/login.js"></script>
+  <script src="js/Carrito.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/cuenta.js"></script>
+</body>
+
+</html>

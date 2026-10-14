@@ -1,0 +1,11 @@
+BEGIN;
+CREATE TABLE IF NOT EXISTS productos (id SERIAL PRIMARY KEY,nombre VARCHAR(200) NOT NULL,precio NUMERIC(12,2) NOT NULL CHECK(precio>0),stock INTEGER NOT NULL CHECK(stock>=0),categoria VARCHAR(100) NOT NULL,imagen TEXT);
+ALTER TABLE productos ADD COLUMN IF NOT EXISTS imagen TEXT;
+CREATE TABLE IF NOT EXISTS usuarios (id SERIAL PRIMARY KEY,nombre VARCHAR(60) NOT NULL,email VARCHAR(254) NOT NULL UNIQUE,password_hash TEXT NOT NULL,rol VARCHAR(20) NOT NULL DEFAULT 'cliente' CHECK(rol IN ('cliente','administrador')),creado_en TIMESTAMPTZ NOT NULL DEFAULT NOW());
+CREATE TABLE IF NOT EXISTS sesiones (token_hash CHAR(64) PRIMARY KEY,usuario_id INTEGER NOT NULL REFERENCES usuarios(id) ON DELETE CASCADE,vence_en TIMESTAMPTZ NOT NULL);
+CREATE INDEX IF NOT EXISTS sesiones_vencimiento ON sesiones(vence_en);
+CREATE TABLE IF NOT EXISTS pedidos (id SERIAL PRIMARY KEY,usuario_id INTEGER NOT NULL REFERENCES usuarios(id),fecha TIMESTAMPTZ NOT NULL DEFAULT NOW(),total NUMERIC(14,2) NOT NULL CHECK(total>0),estado VARCHAR(30) NOT NULL DEFAULT 'confirmado' CHECK(estado IN ('confirmado','enviado','entregado')),clave_compra UUID NOT NULL,UNIQUE(usuario_id,clave_compra));
+CREATE TABLE IF NOT EXISTS detalles_pedido (id SERIAL PRIMARY KEY,pedido_id INTEGER NOT NULL REFERENCES pedidos(id),producto_id INTEGER REFERENCES productos(id) ON DELETE SET NULL,nombre VARCHAR(200) NOT NULL,cantidad INTEGER NOT NULL CHECK(cantidad>0),precio NUMERIC(12,2) NOT NULL CHECK(precio>0),subtotal NUMERIC(14,2) NOT NULL CHECK(subtotal>0));
+CREATE INDEX IF NOT EXISTS pedidos_usuario ON pedidos(usuario_id,fecha DESC);
+CREATE INDEX IF NOT EXISTS detalles_pedido_pedido ON detalles_pedido(pedido_id);
+COMMIT;

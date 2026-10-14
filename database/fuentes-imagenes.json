@@ -1,0 +1,422 @@
+[
+  {
+    "archivo": "teclado",
+    "modelo": "Teclado Redragon Kumara K552",
+    "pagina": "https://redragonshop.com/products/kumara-k552",
+    "url": "https://redragonshop.com/cdn/shop/products/redragonk552.png?v=1762457824",
+    "imagen": "/images/productos/teclado.png"
+  },
+  {
+    "archivo": "mouse",
+    "modelo": "Mouse Logitech G203",
+    "pagina": "https://www.logitechg.com/en-us/shop/p/g203-lightsync-rgb-gaming-mouse",
+    "url": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/refreshed-g203/2025-update/g203-mouse-top-angle-black-gallery-1.png",
+    "imagen": "/images/productos/mouse.png"
+  },
+  {
+    "archivo": "monitor",
+    "modelo": "Monitor Samsung T350 24 pulgadas",
+    "pagina": "https://www.samsung.com/tw/monitors/flat/led-monitor-with-borderless-design-24-inch-lf24t350fhcxzw/",
+    "url": "https://images.samsung.com/is/image/samsung/tw-t35f-lf24t350fhcxzw-frontblack-thumb-303484678",
+    "imagen": "/images/productos/monitor.png"
+  },
+  {
+    "archivo": "auriculares",
+    "modelo": "Auriculares HyperX Cloud Stinger 2",
+    "pagina": "https://uk.hyperx.com/products/hyperx-cloud-stinger",
+    "url": "https://uk.hyperx.com/cdn/shop/files/hyperx_cloud_stinger_2_1_main.jpg?v=1763064905",
+    "imagen": "/images/productos/auriculares.jpg"
+  },
+  {
+    "archivo": "mousepad",
+    "modelo": "Mousepad Redragon Suzaku P003",
+    "pagina": "https://redragonshop.com/products/p003-mouse-pad",
+    "url": "https://redragonshop.com/cdn/shop/products/55-100-400_01.png?v=1759439076",
+    "imagen": "/images/productos/mousepad.png"
+  },
+  {
+    "archivo": "placa-video",
+    "modelo": "MSI GeForce RTX 5070 Ventus 2X",
+    "pagina": "https://es-store.msi.com/products/geforce-rtx-5070-12g-ventus-2x-tarjetas-graficas",
+    "url": "https://es-store.msi.com/cdn/shop/files/tarjeta-grafica-msi-nvidia-geforce-rtx-5070-ventus-2x.png?crop=center&height=1200&v=1779875494&width=1200",
+    "imagen": "/images/productos/placa-video.png"
+  },
+  {
+    "archivo": "notebook",
+    "modelo": "Notebook HP 15-fd 15,6 pulgadas",
+    "pagina": "https://jp.ext.hp.com/notebooks/personal/hp_15_fd/",
+    "url": "https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/notebooks/personal/hp_15_fd/images/main_product.png",
+    "imagen": "/images/productos/notebook.png"
+  },
+  {
+    "archivo": "webcam",
+    "modelo": "Webcam Logitech C920s Full HD",
+    "pagina": "https://www.logitech.com/en-us/shop/p/c920s-pro-hd-webcam",
+    "url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c920s/gallery/c920s-gallery-1.png",
+    "imagen": "/images/productos/webcam.png"
+  },
+  {
+    "archivo": "microfono",
+    "modelo": "Micrófono HyperX SoloCast 2 USB",
+    "pagina": "https://uk.hyperx.com/products/hyperx-solocast-2-gaming-usb-condenser-microphone",
+    "url": "https://uk.hyperx.com/cdn/shop/files/hyperx_solocast_2_ar0a0aa_main_1.jpg?v=1763064798",
+    "imagen": "/images/productos/microfono.jpg"
+  },
+  {
+    "archivo": "parlantes",
+    "modelo": "Parlantes Logitech Z150",
+    "pagina": "https://www.logitech.com/en-us/shop/p/z150-compact-stereo-speakers",
+    "url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/speakers/computer-speakers/z150/gallery/z150-gallery-1.png",
+    "imagen": "/images/productos/parlantes.png"
+  },
+  {
+    "archivo": "ssd",
+    "modelo": "Disco SSD Kingston NV3 1 TB",
+    "pagina": "https://www.amazon.com/dp/B0DBR3DZWG",
+    "url": "https://m.media-amazon.com/images/I/71ZnK38jZzL._AC_.jpg",
+    "imagen": "/images/productos/ssd.jpg"
+  },
+  {
+    "archivo": "joystick",
+    "modelo": "Joystick Xbox Wireless Carbon Black",
+    "pagina": "https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller",
+    "url": "https://assets.xboxservices.com/assets/99/9b/999b6ab0-6ae1-432d-bed3-494bc3dfb138.jpg?n=111101_Sharing_200x200.jpg",
+    "imagen": "/images/productos/joystick.jpg"
+  },
+  {
+    "archivo": "modelo-shiva-k525-max",
+    "modelo": "Teclado Redragon SHIVA K525 MAX",
+    "pagina": "https://redragonshop.com/products/shiva-k525-max",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonSHIVAK525MAX_1_1.png?v=1788254878",
+    "imagen": "/images/productos/modelo-shiva-k525-max.png"
+  },
+  {
+    "archivo": "modelo-eisa-k768-pro",
+    "modelo": "Teclado Redragon EISA K768 PRO",
+    "pagina": "https://redragonshop.com/products/eisa-k768-pro",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Redragon_EISA_K768_PRO_Pink_9.png?v=1787042232",
+    "imagen": "/images/productos/modelo-eisa-k768-pro.png"
+  },
+  {
+    "archivo": "modelo-volcano-k526-pro",
+    "modelo": "Teclado Redragon VOLCANO K526 PRO",
+    "pagina": "https://redragonshop.com/products/volcano-k526-pro",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Redragon_VOLCANO_K526_PRO_Black_2.png?v=1786437187",
+    "imagen": "/images/productos/modelo-volcano-k526-pro.png"
+  },
+  {
+    "archivo": "modelo-galatin-pro-k719-black",
+    "modelo": "Teclado Redragon GALATIN PRO K719 (Black)",
+    "pagina": "https://redragonshop.com/products/galatin-pro-k719-black",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonGALATINPROK719_Black_2_ebb3ce27-c68b-4376-bca4-8c72a70d0b19.png?v=1770716433",
+    "imagen": "/images/productos/modelo-galatin-pro-k719-black.png"
+  },
+  {
+    "archivo": "modelo-mirage-max-m690",
+    "modelo": "Mouse Redragon MIRAGE MAX M690",
+    "pagina": "https://redragonshop.com/products/mirage-max-m690",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Redragon_MIRAGE_MAX_M690_4.png?v=1778314891",
+    "imagen": "/images/productos/modelo-mirage-max-m690.png"
+  },
+  {
+    "archivo": "modelo-stealth-m923",
+    "modelo": "Mouse Redragon STEALTH M923",
+    "pagina": "https://redragonshop.com/products/stealth-m923",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Redragon_STEALTH_M923-WL_1.png?v=1774611350",
+    "imagen": "/images/productos/modelo-stealth-m923.png"
+  },
+  {
+    "archivo": "modelo-viper-m925",
+    "modelo": "Mouse Redragon VIPER M925",
+    "pagina": "https://redragonshop.com/products/viper-m925",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonVIPERM925-WL_beb74581-57e5-4ec6-b98b-6f9e3d6f3d8c.png?v=1773719095",
+    "imagen": "/images/productos/modelo-viper-m925.png"
+  },
+  {
+    "archivo": "modelo-ebony-m998-std",
+    "modelo": "Mouse Redragon EBONY M998 STD",
+    "pagina": "https://redragonshop.com/products/ebony-m998-std",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Redragon_EBONY_M998_STD_7dbe0003-a41c-441e-b1e3-99c1f4657f43.png?v=1769996093",
+    "imagen": "/images/productos/modelo-ebony-m998-std.png"
+  },
+  {
+    "archivo": "modelo-hyperx-cloud-iii-wired-gaming-headset",
+    "modelo": "HyperX Cloud III – Gaming Headset",
+    "pagina": "https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_cloud_iii_red_66x0049_main_1_c34cc86e-20fb-464e-99c2-c898f103089b.jpg?v=1788484558",
+    "imagen": "/images/productos/modelo-hyperx-cloud-iii-wired-gaming-headset.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-cloud-alpha-air-open-back-gaming-headset",
+    "modelo": "HyperX Cloud Alpha Air - Open-Back Gaming Headset",
+    "pagina": "https://hyperx.com/products/hyperx-cloud-alpha-air-open-back-gaming-headset",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_cloud_alpha_air_d14zcaa_main_1.jpg?v=1787066281",
+    "imagen": "/images/productos/modelo-hyperx-cloud-alpha-air-open-back-gaming-headset.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-cloud-alpha-s",
+    "modelo": "HyperX Cloud Alpha S – Gaming Headset",
+    "pagina": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_cloud_alpha_s_blackblue_1_main_291f30c8-b6d0-4201-9499-daec2090a781.jpg?v=1772886080",
+    "imagen": "/images/productos/modelo-hyperx-cloud-alpha-s.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-cloud-iii-wireless-gaming-headset",
+    "modelo": "HyperX Cloud III Wireless - Gaming Headset",
+    "pagina": "https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_cloud_iii_wireless_red_77z46aa_main_1.jpg?v=1775587372",
+    "imagen": "/images/productos/modelo-hyperx-cloud-iii-wireless-gaming-headset.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-quadcast-s-usb-microphone",
+    "modelo": "Micrófono HyperX QuadCast S – USB Microphone – RGB Lighting",
+    "pagina": "https://hyperx.com/products/hyperx-quadcast-s-usb-microphone",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_quadcast_s_1_front_f8ac522c-c5f8-4769-9890-17da065f6540.jpg?v=1763563165",
+    "imagen": "/images/productos/modelo-hyperx-quadcast-s-usb-microphone.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-quadcast-usb-microphone",
+    "modelo": "Micrófono HyperX QuadCast Microphone",
+    "pagina": "https://hyperx.com/products/hyperx-quadcast-usb-microphone",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_quadcast_01_main_9ef081ae-4cc5-402b-93f8-d442e34edc6d.jpg?v=1763563139",
+    "imagen": "/images/productos/modelo-hyperx-quadcast-usb-microphone.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-quadcast-2-s-usb-microphone",
+    "modelo": "Micrófono HyperX QuadCast 2 S – USB Microphone",
+    "pagina": "https://hyperx.com/products/hyperx-quadcast-2-s-usb-microphone",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_quadcast_2_s_9a273aa_main_1.jpg?v=1787066289",
+    "imagen": "/images/productos/modelo-hyperx-quadcast-2-s-usb-microphone.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-quadcast-2-usb-microphone",
+    "modelo": "Micrófono HyperX QuadCast 2 – USB Microphone",
+    "pagina": "https://hyperx.com/products/hyperx-quadcast-2-usb-microphone",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_quadcast_2_872v1aa_main_1.jpg?v=1787066305",
+    "imagen": "/images/productos/modelo-hyperx-quadcast-2-usb-microphone.jpg"
+  },
+  {
+    "archivo": "modelo-pg1m-pro-glass-gaming-mouse-pad",
+    "modelo": "Mousepad Redragon PG1M Pro Glass Gaming Mouse Pad",
+    "pagina": "https://redragonshop.com/products/pg1m-pro-glass-gaming-mouse-pad",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonPG1MProGlassGamingMousePadLargeGrayLogo_5.png?v=1789875282",
+    "imagen": "/images/productos/modelo-pg1m-pro-glass-gaming-mouse-pad.png"
+  },
+  {
+    "archivo": "modelo-drake-oath-glass-mouse-pad",
+    "modelo": "Mousepad Redragon Drake Oath Glass Mouse Pad",
+    "pagina": "https://redragonshop.com/products/drake-oath-glass-mouse-pad",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/LTCGlassMousePad-Ash.png?v=1776863500",
+    "imagen": "/images/productos/modelo-drake-oath-glass-mouse-pad.png"
+  },
+  {
+    "archivo": "modelo-blizzard-warld-of-warcraft-xxl-gaming-mouse-pad-desk-mat",
+    "modelo": "Mousepad Redragon World of Warcraft XL/XXL Gaming Mouse Pad & Desk Mat",
+    "pagina": "https://redragonshop.com/products/blizzard-warld-of-warcraft-xxl-gaming-mouse-pad-desk-mat",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Blizzard_WoW_XXL_Gaming_Mouse_PadDesk_Mat1_2.png?v=1767865632",
+    "imagen": "/images/productos/modelo-blizzard-warld-of-warcraft-xxl-gaming-mouse-pad-desk-mat.png"
+  },
+  {
+    "archivo": "modelo-blizzard-overwatch-xxl-gaming-mouse-pad-desk-mat",
+    "modelo": "Mousepad Redragon Overwatch XXL Gaming Mouse Pad/Desk Mat",
+    "pagina": "https://redragonshop.com/products/blizzard-overwatch-xxl-gaming-mouse-pad-desk-mat",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Blizzard_Overwatch_XXL_Gaming_Mouse_PadDesk_Mat.png?v=1767752957",
+    "imagen": "/images/productos/modelo-blizzard-overwatch-xxl-gaming-mouse-pad-desk-mat.png"
+  },
+  {
+    "archivo": "modelo-gs822",
+    "modelo": "Parlantes Redragon OMNIPRESENCE GS822",
+    "pagina": "https://redragonshop.com/products/gs822",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonOMNIPRESENCEGS822.png?v=1788250185",
+    "imagen": "/images/productos/modelo-gs822.png"
+  },
+  {
+    "archivo": "modelo-impactsphere-gs818",
+    "modelo": "Parlantes Redragon IMPACTSPHERE GS818",
+    "pagina": "https://redragonshop.com/products/impactsphere-gs818",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/Redragon_GS818_1.png?v=1788342991",
+    "imagen": "/images/productos/modelo-impactsphere-gs818.png"
+  },
+  {
+    "archivo": "modelo-airburst-gs821",
+    "modelo": "Parlantes Redragon AIRBURST GS821",
+    "pagina": "https://redragonshop.com/products/airburst-gs821",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonGS821ComputerSoundbarforDesktop_1.png?v=1764231941",
+    "imagen": "/images/productos/modelo-airburst-gs821.png"
+  },
+  {
+    "archivo": "modelo-neo-gs515",
+    "modelo": "Parlantes Redragon NEO GS515",
+    "pagina": "https://redragonshop.com/products/neo-gs515",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonNEOGS515RGBDesktopSoundbar_1.png?v=1762466837",
+    "imagen": "/images/productos/modelo-neo-gs515.png"
+  },
+  {
+    "archivo": "modelo-msi-mag-325cqrf-qd-monitores-gaming",
+    "modelo": "MSI MAG 325CQRF QD",
+    "pagina": "https://es-store.msi.com/products/msi-mag-325cqrf-qd-monitores-gaming",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/monitor-gaming-msi-mag-325cqrf-qd.png?v=1729694581",
+    "imagen": "/images/productos/modelo-msi-mag-325cqrf-qd-monitores-gaming.png"
+  },
+  {
+    "archivo": "modelo-mag-245c-x24-monitores-gaming",
+    "modelo": "MSI MAG 245C X24",
+    "pagina": "https://es-store.msi.com/products/mag-245c-x24-monitores-gaming",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/monitor-gaming-curvo-msi-mag-245c-x24.png?v=1788859443",
+    "imagen": "/images/productos/modelo-mag-245c-x24-monitores-gaming.png"
+  },
+  {
+    "archivo": "modelo-mag-272pf-x24-monitores-gaming",
+    "modelo": "MSI MAG 272PF X24",
+    "pagina": "https://es-store.msi.com/products/mag-272pf-x24-monitores-gaming",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/monitor-gaming-msi-mag-272pf-x24.png?v=1765445299",
+    "imagen": "/images/productos/modelo-mag-272pf-x24-monitores-gaming.png"
+  },
+  {
+    "archivo": "modelo-mag-276cf-e20-monitores-gaming",
+    "modelo": "MSI MAG 276CF E20",
+    "pagina": "https://es-store.msi.com/products/mag-276cf-e20-monitores-gaming",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/monitor-gaming-msi-mag-276cf-e20.png?v=1766406389",
+    "imagen": "/images/productos/modelo-mag-276cf-e20-monitores-gaming.png"
+  },
+  {
+    "archivo": "modelo-geforce-rtx-5070-ti-16g-gaming-trio-oc-tarjetas-graficas",
+    "modelo": "MSI GeForce RTX 5070 Ti 16G GAMING TRIO OC",
+    "pagina": "https://es-store.msi.com/products/geforce-rtx-5070-ti-16g-gaming-trio-oc-tarjetas-graficas",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/tarjeta-grafica-msi-nvidia-geforce-rtx-5070-ti-gaming-trio-oc.png?v=1784798465",
+    "imagen": "/images/productos/modelo-geforce-rtx-5070-ti-16g-gaming-trio-oc-tarjetas-graficas.png"
+  },
+  {
+    "archivo": "modelo-geforce-rtx-5060-ti-16g-ventus-2x-plus-tarjetas-graficas",
+    "modelo": "MSI GeForce RTX 5060 Ti 16G VENTUS 2X PLUS",
+    "pagina": "https://es-store.msi.com/products/geforce-rtx-5060-ti-16g-ventus-2x-plus-tarjetas-graficas",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/tarjeta-grafica-msi-nvidia-geforce-rtx-5060-ti-ventus-2x-oc-plus.png?v=1744882724",
+    "imagen": "/images/productos/modelo-geforce-rtx-5060-ti-16g-ventus-2x-plus-tarjetas-graficas.png"
+  },
+  {
+    "archivo": "modelo-geforce-rtx-5080-16g-the-mandalorian-and-grogu-edition-oc",
+    "modelo": "MSI GeForce RTX 5080 16G The Mandalorian and Grogu Edition OC",
+    "pagina": "https://es-store.msi.com/products/geforce-rtx-5080-16g-the-mandalorian-and-grogu-edition-oc",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/tarjeta-grafica-msi-nvidia-geforce-rtx-5080-the-mandalorian-grogu-edition-oc.png?v=1779188914",
+    "imagen": "/images/productos/modelo-geforce-rtx-5080-16g-the-mandalorian-and-grogu-edition-oc.png"
+  },
+  {
+    "archivo": "modelo-geforce-rtx-5050-8g-ventus-2x-oc",
+    "modelo": "MSI GeForce RTX 5050 8G VENTUS 2X OC",
+    "pagina": "https://es-store.msi.com/products/geforce-rtx-5050-8g-ventus-2x-oc",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/tarjeta-grafica-msi-nvidia-geforce-rtx-5050-ventus-2x-oc.png?v=1779352578",
+    "imagen": "/images/productos/modelo-geforce-rtx-5050-8g-ventus-2x-oc.png"
+  },
+  {
+    "archivo": "modelo-titan-18-hx-dragon-edition-draco-epic-a2wj-1292es-portatiles",
+    "modelo": "MSI Titan 18 HX Dragon Edition Draco Epic A2WJ-1292ES",
+    "pagina": "https://es-store.msi.com/products/titan-18-hx-dragon-edition-draco-epic-a2wj-1292es-portatiles",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/pack-portatil-gaming-msi-titan-18-hx-dragon-edition-draco-epic-a2wj-1292es.png?v=1787218673",
+    "imagen": "/images/productos/modelo-titan-18-hx-dragon-edition-draco-epic-a2wj-1292es-portatiles.png"
+  },
+  {
+    "archivo": "modelo-prestige-14-ai-evo-c2hmg-091es-portatiles",
+    "modelo": "MSI Prestige 14 AI Evo C2HMG-091ES",
+    "pagina": "https://es-store.msi.com/products/prestige-14-ai-evo-c2hmg-091es-portatiles",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/portatil-profesional-msi-prestige-14-ai-evo-c2hmg-091es.png?v=1786358682",
+    "imagen": "/images/productos/modelo-prestige-14-ai-evo-c2hmg-091es-portatiles.png"
+  },
+  {
+    "archivo": "modelo-cyborg-15-b13wfkg-687xes-portatiles",
+    "modelo": "MSI Cyborg 15 B13WFKG-687XES",
+    "pagina": "https://es-store.msi.com/products/cyborg-15-b13wfkg-687xes-portatiles",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/portatil-gaming-msi-cyborg-15-b13wfkg-687xes.png?v=1780486158",
+    "imagen": "/images/productos/modelo-cyborg-15-b13wfkg-687xes-portatiles.png"
+  },
+  {
+    "archivo": "modelo-prestige-13-ai-a3mg-010xes-portatiles",
+    "modelo": "MSI Prestige 13 AI+ A3MG-010XES",
+    "pagina": "https://es-store.msi.com/products/prestige-13-ai-a3mg-010xes-portatiles",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/portatil-profesional-msi-prestige-13-ai-a3mg-020xes.png?v=1779272302",
+    "imagen": "/images/productos/modelo-prestige-13-ai-a3mg-010xes-portatiles.png"
+  },
+  {
+    "archivo": "modelo-spatium-m571-dlp-pcie-5-0-nvme-m-2-2tb-ssd",
+    "modelo": "MSI SPATIUM M571 DLP PCIe 5.0 NVMe M.2 2TB",
+    "pagina": "https://es-store.msi.com/products/spatium-m571-dlp-pcie-5-0-nvme-m-2-2tb-ssd",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/memoria-ssd-msi-spatium-m571-dlp-pcie-5.0-nvme-m.2-4tb_d130552f-0883-45f6-91b3-68cb6119bcc3.png?v=1773152391",
+    "imagen": "/images/productos/modelo-spatium-m571-dlp-pcie-5-0-nvme-m-2-2tb-ssd.png"
+  },
+  {
+    "archivo": "modelo-spatium-m571-dlp-pcie-5-0-nvme-m-2-4tb-ssd",
+    "modelo": "MSI SPATIUM M571 DLP PCIe 5.0 NVMe M.2 4TB",
+    "pagina": "https://es-store.msi.com/products/spatium-m571-dlp-pcie-5-0-nvme-m-2-4tb-ssd",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/memoria-ssd-msi-spatium-m571-dlp-pcie-5.0-nvme-m.2-4tb.png?v=1773152177",
+    "imagen": "/images/productos/modelo-spatium-m571-dlp-pcie-5-0-nvme-m-2-4tb-ssd.png"
+  },
+  {
+    "archivo": "modelo-datamag-20gbps-2tb-discos-ssd",
+    "modelo": "MSI DATAMAG 20Gbps 2TB",
+    "pagina": "https://es-store.msi.com/products/datamag-20gbps-2tb-discos-ssd",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/ssd-msi-datamag-20gbps-2tb.png?v=1744642111",
+    "imagen": "/images/productos/modelo-datamag-20gbps-2tb-discos-ssd.png"
+  },
+  {
+    "archivo": "modelo-spatium-m450-pcie-4-0-nvme-m-2-1tb-v1-discos-ssd",
+    "modelo": "MSI SPATIUM M450 PCIe 4.0 NVMe M.2 1TB V1",
+    "pagina": "https://es-store.msi.com/products/spatium-m450-pcie-4-0-nvme-m-2-1tb-v1-discos-ssd",
+    "url": "https://cdn.shopify.com/s/files/1/0638/0408/0306/files/memoria-ssd-msi-spatium-m450-pcie-m.2-v1-1tb.png?v=1742826234",
+    "imagen": "/images/productos/modelo-spatium-m450-pcie-4-0-nvme-m-2-1tb-v1-discos-ssd.png"
+  },
+  {
+    "archivo": "modelo-hyperx-clutch-talon-wireless-gaming-controller-xbox",
+    "modelo": "Joystick HyperX Clutch Talon – Wireless Gaming Controller - Xbox",
+    "pagina": "https://hyperx.com/products/hyperx-clutch-talon-wireless-gaming-controller-xbox",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_clutch_talon_b11dbaa_main_1.jpg?v=1787066247",
+    "imagen": "/images/productos/modelo-hyperx-clutch-talon-wireless-gaming-controller-xbox.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-clutch-tachi-leverless-gaming-arcade-controller",
+    "modelo": "Joystick HyperX Clutch Tachi – Xbox",
+    "pagina": "https://hyperx.com/products/hyperx-clutch-tachi-leverless-gaming-arcade-controller",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_clutch_tachi_b11d9aa_main_1.jpg?v=1787066263",
+    "imagen": "/images/productos/modelo-hyperx-clutch-tachi-leverless-gaming-arcade-controller.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-clutch-tanto-mini-wired-gaming-controller",
+    "modelo": "Joystick HyperX Clutch Tanto Mini Wired Gaming Controller",
+    "pagina": "https://hyperx.com/products/hyperx-clutch-tanto-mini-wired-gaming-controller",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_clutch_tanto_8b1s0aa_main_1.jpg?v=1763563251",
+    "imagen": "/images/productos/modelo-hyperx-clutch-tanto-mini-wired-gaming-controller.jpg"
+  },
+  {
+    "archivo": "modelo-hyperx-clutch-gladiate-rgb-gaming-controller",
+    "modelo": "Joystick HyperX Clutch Gladiate RGB – Wired Gaming Controller – Xbox",
+    "pagina": "https://hyperx.com/products/hyperx-clutch-gladiate-rgb-gaming-controller",
+    "url": "https://cdn.shopify.com/s/files/1/0561/8345/5901/files/hyperx_clutch_gladiate_rgb_7d6h2aa_main_1.jpg?v=1771417819",
+    "imagen": "/images/productos/modelo-hyperx-clutch-gladiate-rgb-gaming-controller.jpg"
+  },
+  {
+    "archivo": "modelo-gw911-4k-webcam",
+    "modelo": "Webcam Redragon GW911 4K Webcam",
+    "pagina": "https://redragonshop.com/products/gw911-4k-webcam",
+    "url": "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/RedragonGW9114KWebcam_7.png?v=1757034868",
+    "imagen": "/images/productos/modelo-gw911-4k-webcam.png"
+  },
+  {
+    "archivo": "c270-hd-webcam",
+    "modelo": "Webcam Logitech C270 HD",
+    "pagina": "https://www.logitech.com/en-us/shop/p/c270-hd-webcam",
+    "imagen": "/images/productos/c270-hd-webcam.png",
+    "url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/products/logitech/webcams/c270-hd-webcam/gallery/c270-hd-webcam-1-0224.png"
+  },
+  {
+    "archivo": "brio-100-webcam",
+    "modelo": "Webcam Logitech Brio 100",
+    "pagina": "https://www.logitech.com/en-us/shop/p/brio-100-webcam",
+    "imagen": "/images/productos/brio-100-webcam.png",
+    "url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/brio-100/gallery/brio-100-gallery-graphite-1.png"
+  },
+  {
+    "archivo": "brio-500-webcam",
+    "modelo": "Webcam Logitech Brio 500",
+    "pagina": "https://www.logitech.com/en-us/shop/p/brio-500-webcam",
+    "imagen": "/images/productos/brio-500-webcam.png",
+    "url": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/brio-500/gallery/brio-500-gallery-graphite-1.png"
+  }
+]

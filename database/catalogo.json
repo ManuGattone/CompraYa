@@ -1,0 +1,422 @@
+[
+  {
+    "nombre": "Teclado Redragon Kumara K552",
+    "categoria": "Teclados",
+    "precio": 65000,
+    "stock": 10,
+    "imagen": "/images/productos/teclado.png"
+  },
+  {
+    "nombre": "Mouse Logitech G203",
+    "categoria": "Mouse",
+    "precio": 42000,
+    "stock": 10,
+    "imagen": "/images/productos/mouse.png"
+  },
+  {
+    "nombre": "Monitor Samsung T350 24 pulgadas",
+    "categoria": "Monitores",
+    "precio": 350000,
+    "stock": 10,
+    "imagen": "/images/productos/monitor.png"
+  },
+  {
+    "nombre": "Auriculares HyperX Cloud Stinger 2",
+    "categoria": "Auriculares",
+    "precio": 90000,
+    "stock": 10,
+    "imagen": "/images/productos/auriculares.jpg"
+  },
+  {
+    "nombre": "Mousepad Redragon Suzaku P003",
+    "categoria": "Mousepads",
+    "precio": 25000,
+    "stock": 10,
+    "imagen": "/images/productos/mousepad.png"
+  },
+  {
+    "nombre": "MSI GeForce RTX 5070 Ventus 2X",
+    "categoria": "Placas de video",
+    "precio": 950000,
+    "stock": 10,
+    "imagen": "/images/productos/placa-video.png"
+  },
+  {
+    "nombre": "Notebook HP 15-fd 15,6 pulgadas",
+    "categoria": "Notebooks",
+    "precio": 1500000,
+    "stock": 10,
+    "imagen": "/images/productos/notebook.png"
+  },
+  {
+    "nombre": "Webcam Logitech C920s Full HD",
+    "categoria": "Webcams",
+    "precio": 70000,
+    "stock": 10,
+    "imagen": "/images/productos/webcam.png"
+  },
+  {
+    "nombre": "Micrófono HyperX SoloCast 2 USB",
+    "categoria": "Micrófonos",
+    "precio": 130000,
+    "stock": 10,
+    "imagen": "/images/productos/microfono.jpg"
+  },
+  {
+    "nombre": "Parlantes Logitech Z150",
+    "categoria": "Parlantes",
+    "precio": 60000,
+    "stock": 10,
+    "imagen": "/images/productos/parlantes.png"
+  },
+  {
+    "nombre": "Disco SSD Kingston NV3 1 TB",
+    "categoria": "Almacenamiento",
+    "precio": 130000,
+    "stock": 10,
+    "imagen": "/images/productos/ssd.jpg"
+  },
+  {
+    "nombre": "Joystick Xbox Wireless Carbon Black",
+    "categoria": "Joysticks",
+    "precio": 80000,
+    "stock": 10,
+    "imagen": "/images/productos/joystick.jpg"
+  },
+  {
+    "nombre": "Teclado Redragon SHIVA K525 MAX",
+    "categoria": "Teclados",
+    "precio": 70000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-shiva-k525-max.png"
+  },
+  {
+    "nombre": "Teclado Redragon EISA K768 PRO",
+    "categoria": "Teclados",
+    "precio": 75000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-eisa-k768-pro.png"
+  },
+  {
+    "nombre": "Teclado Redragon VOLCANO K526 PRO",
+    "categoria": "Teclados",
+    "precio": 80000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-volcano-k526-pro.png"
+  },
+  {
+    "nombre": "Teclado Redragon GALATIN PRO K719 (Black)",
+    "categoria": "Teclados",
+    "precio": 85000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-galatin-pro-k719-black.png"
+  },
+  {
+    "nombre": "Mouse Redragon MIRAGE MAX M690",
+    "categoria": "Mouse",
+    "precio": 47000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-mirage-max-m690.png"
+  },
+  {
+    "nombre": "Mouse Redragon STEALTH M923",
+    "categoria": "Mouse",
+    "precio": 52000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-stealth-m923.png"
+  },
+  {
+    "nombre": "Mouse Redragon VIPER M925",
+    "categoria": "Mouse",
+    "precio": 57000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-viper-m925.png"
+  },
+  {
+    "nombre": "Mouse Redragon EBONY M998 STD",
+    "categoria": "Mouse",
+    "precio": 62000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-ebony-m998-std.png"
+  },
+  {
+    "nombre": "HyperX Cloud III – Gaming Headset",
+    "categoria": "Auriculares",
+    "precio": 95000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-cloud-iii-wired-gaming-headset.jpg"
+  },
+  {
+    "nombre": "HyperX Cloud Alpha Air - Open-Back Gaming Headset",
+    "categoria": "Auriculares",
+    "precio": 100000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-cloud-alpha-air-open-back-gaming-headset.jpg"
+  },
+  {
+    "nombre": "HyperX Cloud Alpha S – Gaming Headset",
+    "categoria": "Auriculares",
+    "precio": 105000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-cloud-alpha-s.jpg"
+  },
+  {
+    "nombre": "HyperX Cloud III Wireless - Gaming Headset",
+    "categoria": "Auriculares",
+    "precio": 110000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-cloud-iii-wireless-gaming-headset.jpg"
+  },
+  {
+    "nombre": "Micrófono HyperX QuadCast S – USB Microphone – RGB Lighting",
+    "categoria": "Micrófonos",
+    "precio": 135000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-quadcast-s-usb-microphone.jpg"
+  },
+  {
+    "nombre": "Micrófono HyperX QuadCast Microphone",
+    "categoria": "Micrófonos",
+    "precio": 140000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-quadcast-usb-microphone.jpg"
+  },
+  {
+    "nombre": "Micrófono HyperX QuadCast 2 S – USB Microphone",
+    "categoria": "Micrófonos",
+    "precio": 145000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-quadcast-2-s-usb-microphone.jpg"
+  },
+  {
+    "nombre": "Micrófono HyperX QuadCast 2 – USB Microphone",
+    "categoria": "Micrófonos",
+    "precio": 150000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-quadcast-2-usb-microphone.jpg"
+  },
+  {
+    "nombre": "Mousepad Redragon PG1M Pro Glass Gaming Mouse Pad",
+    "categoria": "Mousepads",
+    "precio": 30000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-pg1m-pro-glass-gaming-mouse-pad.png"
+  },
+  {
+    "nombre": "Mousepad Redragon Drake Oath Glass Mouse Pad",
+    "categoria": "Mousepads",
+    "precio": 35000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-drake-oath-glass-mouse-pad.png"
+  },
+  {
+    "nombre": "Mousepad Redragon World of Warcraft XL/XXL Gaming Mouse Pad & Desk Mat",
+    "categoria": "Mousepads",
+    "precio": 40000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-blizzard-warld-of-warcraft-xxl-gaming-mouse-pad-desk-mat.png"
+  },
+  {
+    "nombre": "Mousepad Redragon Overwatch XXL Gaming Mouse Pad/Desk Mat",
+    "categoria": "Mousepads",
+    "precio": 45000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-blizzard-overwatch-xxl-gaming-mouse-pad-desk-mat.png"
+  },
+  {
+    "nombre": "Parlantes Redragon OMNIPRESENCE GS822",
+    "categoria": "Parlantes",
+    "precio": 65000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-gs822.png"
+  },
+  {
+    "nombre": "Parlantes Redragon IMPACTSPHERE GS818",
+    "categoria": "Parlantes",
+    "precio": 70000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-impactsphere-gs818.png"
+  },
+  {
+    "nombre": "Parlantes Redragon AIRBURST GS821",
+    "categoria": "Parlantes",
+    "precio": 75000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-airburst-gs821.png"
+  },
+  {
+    "nombre": "Parlantes Redragon NEO GS515",
+    "categoria": "Parlantes",
+    "precio": 80000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-neo-gs515.png"
+  },
+  {
+    "nombre": "MSI MAG 325CQRF QD",
+    "categoria": "Monitores",
+    "precio": 355000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-msi-mag-325cqrf-qd-monitores-gaming.png"
+  },
+  {
+    "nombre": "MSI MAG 245C X24",
+    "categoria": "Monitores",
+    "precio": 360000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-mag-245c-x24-monitores-gaming.png"
+  },
+  {
+    "nombre": "MSI MAG 272PF X24",
+    "categoria": "Monitores",
+    "precio": 365000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-mag-272pf-x24-monitores-gaming.png"
+  },
+  {
+    "nombre": "MSI MAG 276CF E20",
+    "categoria": "Monitores",
+    "precio": 370000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-mag-276cf-e20-monitores-gaming.png"
+  },
+  {
+    "nombre": "MSI GeForce RTX 5070 Ti 16G GAMING TRIO OC",
+    "categoria": "Placas de video",
+    "precio": 955000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-geforce-rtx-5070-ti-16g-gaming-trio-oc-tarjetas-graficas.png"
+  },
+  {
+    "nombre": "MSI GeForce RTX 5060 Ti 16G VENTUS 2X PLUS",
+    "categoria": "Placas de video",
+    "precio": 960000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-geforce-rtx-5060-ti-16g-ventus-2x-plus-tarjetas-graficas.png"
+  },
+  {
+    "nombre": "MSI GeForce RTX 5080 16G The Mandalorian and Grogu Edition OC",
+    "categoria": "Placas de video",
+    "precio": 965000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-geforce-rtx-5080-16g-the-mandalorian-and-grogu-edition-oc.png"
+  },
+  {
+    "nombre": "MSI GeForce RTX 5050 8G VENTUS 2X OC",
+    "categoria": "Placas de video",
+    "precio": 970000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-geforce-rtx-5050-8g-ventus-2x-oc.png"
+  },
+  {
+    "nombre": "MSI Titan 18 HX Dragon Edition Draco Epic A2WJ-1292ES",
+    "categoria": "Notebooks",
+    "precio": 1505000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-titan-18-hx-dragon-edition-draco-epic-a2wj-1292es-portatiles.png"
+  },
+  {
+    "nombre": "MSI Prestige 14 AI Evo C2HMG-091ES",
+    "categoria": "Notebooks",
+    "precio": 1510000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-prestige-14-ai-evo-c2hmg-091es-portatiles.png"
+  },
+  {
+    "nombre": "MSI Cyborg 15 B13WFKG-687XES",
+    "categoria": "Notebooks",
+    "precio": 1515000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-cyborg-15-b13wfkg-687xes-portatiles.png"
+  },
+  {
+    "nombre": "MSI Prestige 13 AI+ A3MG-010XES",
+    "categoria": "Notebooks",
+    "precio": 1520000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-prestige-13-ai-a3mg-010xes-portatiles.png"
+  },
+  {
+    "nombre": "MSI SPATIUM M571 DLP PCIe 5.0 NVMe M.2 2TB",
+    "categoria": "Almacenamiento",
+    "precio": 135000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-spatium-m571-dlp-pcie-5-0-nvme-m-2-2tb-ssd.png"
+  },
+  {
+    "nombre": "MSI SPATIUM M571 DLP PCIe 5.0 NVMe M.2 4TB",
+    "categoria": "Almacenamiento",
+    "precio": 140000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-spatium-m571-dlp-pcie-5-0-nvme-m-2-4tb-ssd.png"
+  },
+  {
+    "nombre": "MSI DATAMAG 20Gbps 2TB",
+    "categoria": "Almacenamiento",
+    "precio": 145000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-datamag-20gbps-2tb-discos-ssd.png"
+  },
+  {
+    "nombre": "MSI SPATIUM M450 PCIe 4.0 NVMe M.2 1TB V1",
+    "categoria": "Almacenamiento",
+    "precio": 150000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-spatium-m450-pcie-4-0-nvme-m-2-1tb-v1-discos-ssd.png"
+  },
+  {
+    "nombre": "Joystick HyperX Clutch Talon – Wireless Gaming Controller - Xbox",
+    "categoria": "Joysticks",
+    "precio": 85000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-clutch-talon-wireless-gaming-controller-xbox.jpg"
+  },
+  {
+    "nombre": "Joystick HyperX Clutch Tachi – Xbox",
+    "categoria": "Joysticks",
+    "precio": 90000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-clutch-tachi-leverless-gaming-arcade-controller.jpg"
+  },
+  {
+    "nombre": "Joystick HyperX Clutch Tanto Mini Wired Gaming Controller",
+    "categoria": "Joysticks",
+    "precio": 95000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-clutch-tanto-mini-wired-gaming-controller.jpg"
+  },
+  {
+    "nombre": "Joystick HyperX Clutch Gladiate RGB – Wired Gaming Controller – Xbox",
+    "categoria": "Joysticks",
+    "precio": 100000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-hyperx-clutch-gladiate-rgb-gaming-controller.jpg"
+  },
+  {
+    "nombre": "Webcam Redragon GW911 4K Webcam",
+    "categoria": "Webcams",
+    "precio": 75000,
+    "stock": 8,
+    "imagen": "/images/productos/modelo-gw911-4k-webcam.png"
+  },
+  {
+    "nombre": "Webcam Logitech C270 HD",
+    "categoria": "Webcams",
+    "precio": 45000,
+    "stock": 10,
+    "imagen": "/images/productos/c270-hd-webcam.png"
+  },
+  {
+    "nombre": "Webcam Logitech Brio 100",
+    "categoria": "Webcams",
+    "precio": 80000,
+    "stock": 10,
+    "imagen": "/images/productos/brio-100-webcam.png"
+  },
+  {
+    "nombre": "Webcam Logitech Brio 500",
+    "categoria": "Webcams",
+    "precio": 170000,
+    "stock": 10,
+    "imagen": "/images/productos/brio-500-webcam.png"
+  }
+]

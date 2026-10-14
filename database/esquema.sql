@@ -8,4 +8,5 @@ CREATE TABLE IF NOT EXISTS pedidos (id SERIAL PRIMARY KEY,usuario_id INTEGER NOT
 CREATE TABLE IF NOT EXISTS detalles_pedido (id SERIAL PRIMARY KEY,pedido_id INTEGER NOT NULL REFERENCES pedidos(id),producto_id INTEGER REFERENCES productos(id) ON DELETE SET NULL,nombre VARCHAR(200) NOT NULL,cantidad INTEGER NOT NULL CHECK(cantidad>0),precio NUMERIC(12,2) NOT NULL CHECK(precio>0),subtotal NUMERIC(14,2) NOT NULL CHECK(subtotal>0));
 CREATE INDEX IF NOT EXISTS pedidos_usuario ON pedidos(usuario_id,fecha DESC);
 CREATE INDEX IF NOT EXISTS detalles_pedido_pedido ON detalles_pedido(pedido_id);
+CREATE TABLE IF NOT EXISTS pagos_prueba (id UUID PRIMARY KEY,usuario_id INTEGER NOT NULL REFERENCES usuarios(id),items JSONB NOT NULL,total NUMERIC(14,2) NOT NULL,preferencia_id TEXT,url_pago TEXT,pago_id TEXT UNIQUE,estado TEXT NOT NULL DEFAULT 'pendiente',pedido_id INTEGER UNIQUE REFERENCES pedidos(id),creado_en TIMESTAMPTZ NOT NULL DEFAULT NOW());
 COMMIT;

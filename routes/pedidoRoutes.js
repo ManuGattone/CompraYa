@@ -8,8 +8,12 @@ router.get("/", requerirUsuario, async (req, res) =>
 router.get("/todos", requerirAdmin, async (req, res) =>
   res.json(await Pedido.listar(pool, null)),
 );
-router.post("/", requerirUsuario, async (req, res) =>
-  res.status(201).json({
+router.post("/", requerirUsuario, async (req, res) => {
+  if (require("../models/pago").habilitado())
+    return res
+      .status(409)
+      .json({ mensaje: "Finalizá la compra desde Mercado Pago de prueba." });
+  return res.status(201).json({
     mensaje: "¡Compra realizada correctamente!",
     pedido: await Pedido.confirmar(
       pool,
@@ -17,6 +21,6 @@ router.post("/", requerirUsuario, async (req, res) =>
       req.body.items,
       req.body.clave_compra,
     ),
-  }),
-);
+  });
+});
 module.exports = router;

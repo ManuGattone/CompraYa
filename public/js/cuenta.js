@@ -201,6 +201,7 @@ document
     document.getElementById("mensaje-carrito").textContent =
       "Confirmando compra…";
     try {
+      if (await iniciarPagoPrueba(items, compraPendiente.clave)) return;
       const resultado = await api("/api/pedidos", {
         method: "POST",
         body: JSON.stringify({ items, clave_compra: compraPendiente.clave }),

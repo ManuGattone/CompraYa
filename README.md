@@ -51,7 +51,24 @@ Agregá productos al carrito y ajustá las cantidades. Cada fila muestra su subt
 
 Al confirmar se muestra el número de pedido, se vacía el carrito y se actualiza el catálogo. **Mis compras** muestra fecha, productos, cantidades, precio unitario, subtotales, total y estado. El estado inicial es confirmado. Los nombres y precios quedan copiados en los detalles: editar o eliminar un producto conserva el historial. El administrador puede consultar todos los pedidos; cada cliente sólo ve los propios.
 
-El proyecto registra pedidos de demostración; no integra pagos, facturación ni envíos reales. El estado se muestra en el historial; esta versión no incluye un flujo de gestión de envíos.
+El proyecto registra pedidos de demostración y permite integrar Mercado Pago Checkout Pro con cuentas de prueba. No procesa cobros reales, facturación ni envíos. El carrito se abre en un panel lateral y conserva los controles de cantidades y totales.
+
+### Mercado Pago de prueba
+
+1. En Mercado Pago Developers, creá una aplicación de Checkout Pro y dos cuentas de prueba de Argentina: vendedor y comprador.
+2. Obtené el Access Token de la cuenta **vendedora de prueba**. No uses la credencial de tu cuenta real ni la publiques en GitHub o en capturas.
+3. En Render → CompraYa → Environment, agregá `MP_TEST_MODE=true` y `MP_ACCESS_TOKEN` con ese token. Conservá `APP_ORIGIN=https://compraya-ik2n.onrender.com` y `NODE_ENV=production`.
+4. Usá como build `npm ci && npm run migrate && npm run seed`, y como inicio `npm start`. La migración agrega la tabla `pagos_prueba` sin borrar pedidos existentes.
+5. Registrate o ingresá en CompraYa, agregá productos y pulsá **Pagar con Mercado Pago (prueba)**. En el checkout de Mercado Pago ingresá con la cuenta **compradora de prueba**, distinta del vendedor, y usá tarjetas de prueba indicadas por Mercado Pago.
+6. Al volver, CompraYa consulta el pago en la API. El pedido solo se confirma si el pago pertenece al vendedor de prueba, tiene el identificador esperado, moneda ARS, el importe correcto y estado aprobado. Se rechazan cuentas vendedoras reales y pagos con `live_mode=true`.
+
+Las preferencias usan precios obtenidos de PostgreSQL; no aceptan importes del navegador. Las consultas repetidas de un pago aprobado no duplican el pedido ni descuentan stock dos veces. Sin configuración de Mercado Pago sigue disponible la compra de demostración original; cuando está habilitado, no se puede confirmar por esa ruta sin pagar.
+
+El carrito previo al checkout se guarda en `sessionStorage` para recuperarlo al regresar en la misma pestaña. El resultado aparece arriba del catálogo y permite consultar otra vez si está pendiente o rechazado. Las tarjetas se ingresan en Mercado Pago, nunca en CompraYa.
+
+**Alcance académico:** la verificación se hace al volver a CompraYa o al pulsar consultar estado; no hay webhook ni conciliación automática en segundo plano. No se reserva stock durante el checkout. Si el stock o el precio cambian antes de verificar el pago, se marca **requiere revisión**, sin confirmar el pedido. No hay devolución automática; esta integración está limitada a pruebas, no a ventas reales.
+
+Se verificó con PostgreSQL y respuestas simuladas de Mercado Pago: importes, propiedad del pago, rechazo de cuentas reales, idempotencia y cambios de stock/precio. La prueba completa contra Mercado Pago requiere configurar las cuentas y credenciales.
 
 ## Base de datos y catálogo
 
@@ -69,9 +86,12 @@ La migración y el seed no contienen DROP, TRUNCATE ni borrados de datos. El esq
 
 ## Estructura y POO
 
+Las carpetas separan responsabilidades. `public` contiene la interfaz; `routes` recibe las solicitudes HTTP; `models` contiene clases y operaciones con datos; `controllers` organiza las operaciones de productos; `middleware` verifica sesión, permisos y origen; `database` contiene la conexión, el esquema y la carga inicial; `tests` prueba el funcionamiento. `artifacts` contiene capturas generadas por las pruebas: no es necesaria para ejecutar la tienda y está excluida de GitHub. `node_modules` contiene dependencias instaladas con npm y también está excluida. `.env` guarda configuración local privada; `.env.example` muestra las variables sin contraseñas reales.
+
 ```text
 server.js                   Aplicación Express, seguridad y rutas
 models/                     Clases de dominio
+models/pago.js              Preferencia y verificación de pagos de prueba
 controllers/                Operaciones HTTP de productos
 middleware/auth.js          Sesión, permisos y control de origen
 routes/                     Autenticación, productos y pedidos
@@ -81,6 +101,7 @@ public/js/Carrito.js         Clase del carrito, sin dependencias del HTML
 public/js/app.js             Catálogo, filtros y representación del carrito
 public/js/login.js           Interfaz de autenticación y cliente HTTP
 public/js/cuenta.js          Compra, historial y administración
+public/js/pagos.js           Checkout y retorno de Mercado Pago de prueba
 public/css/styles.css       Diseño responsive
 tests/                      Pruebas de dominio, API, PostgreSQL y navegador
 ```

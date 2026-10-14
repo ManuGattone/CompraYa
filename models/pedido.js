@@ -24,7 +24,13 @@ class Pedido {
     }
     return [...items].sort((a, b) => a.id - b.id);
   }
-  static async confirmar(pool, usuarioId, items, clave) {
+  static async confirmar(
+    pool,
+    usuarioId,
+    items,
+    clave,
+    preciosEsperados = null,
+  ) {
     const seleccion = Pedido.validarItems(items);
     if (
       typeof clave !== "string" ||
@@ -63,6 +69,16 @@ class Pedido {
             status: 409,
           });
         const producto = new Producto(fila);
+        if (
+          preciosEsperados &&
+          producto.precioCentavos !== preciosEsperados[item.id]
+        )
+          throw Object.assign(
+            new Error(
+              "El precio cambió después de iniciar el pago de prueba. No se confirmó el pedido.",
+            ),
+            { status: 409 },
+          );
         producto.vender(item.cantidad);
         const subtotal = producto.precioCentavos * item.cantidad;
         totalCentavos += subtotal;

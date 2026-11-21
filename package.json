@@ -12,6 +12,7 @@
     "admin": "node database/crear-admin.js",
     "test": "node --test tests/compra.test.js",
     "test:ui": "node tests/navegador.js",
+    "test:experiencia": "node --test tests/experiencia.test.js",
     "format": "prettier --write \"**/*.{js,json,html,css,md}\""
   },
   "keywords": [],
